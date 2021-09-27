@@ -1,0 +1,179 @@
+header {
+  position: sticky;
+  width: 100%;
+  height: 56px;
+  background-color: #181716;
+}
+#menu {
+  width: 30px;
+  margin-left: 10px;
+}
+#icon {
+  width: 20px;
+}
+#logo {
+  display: block;
+  width: 200px;
+  margin-left: 40%;
+  margin-right: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+li {
+  display: inline;
+}
+button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+}
+#btnSub {
+  background-color: red;
+  color: #fff;
+}
+#btnSign {
+  background-color: #333333;
+  color: #fff;
+}
+.titleBox {
+  height: 281px;
+  width: 920px;
+  margin: auto;
+  padding-top: 30px;
+  background-color: transparent;
+}
+h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65.88px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff480d;
+}
+h3 {
+  text-align: center;
+  color: #ff480d;
+  font-weight: lighter;
+  font-size: 12px;
+}
+#image-1 {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#picFooter {
+  margin: 6px 0px 0px;
+  text-align: center;
+  font-family: "work sans", sans-serif;
+  font-size: 12px;
+  line-height: 20.04px;
+  color: #737373;
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 30px;
+  border-bottom: #ff480d solid 1px;
+  text-align: center;
+  font-family: "work sans", sans-serif;
+  font-size: 30px;
+}
+.author {
+  display: flex;
+  position: relative;
+  width: 700px;
+  height: 50px;
+  margin: auto;
+  padding-top: 50px;
+  background-color: transparent;
+  border-top: red solid 2px;
+  border-bottom: red solid 2px;
+  border-bottom-width: 1px;
+}
+.socialMedia {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+.mediaLogo {
+  width: 15px;
+  padding: 0px 20px;
+}
+.date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 15px;
+}
+.article {
+  height: 7000px;
+  width: 700px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0px 0px 19.2px;
+  font-weight: 400;
+}
+#authorsEnd {
+  width: 700px;
+  background-color: transparent;
+  border-bottom: #ff480d solid 2px;
+}
+.endTextAuthor {
+  font-family: "work sans", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #333333;
+}
+#authorPic {
+  padding: 15px;
+  width: 60px;
+  border-radius: 70%;
+}
+.relatedArt {
+  border-top: #ff480d solid 2px;
+  border-bottom: #ff480d solid 2px;
+  padding-bottom: 10px;
+}
+#related {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ff480d;
+}
+#index {
+  font-size: 20px;
+  font-style: oblique;
+  text-decoration: none;
+}
+#indexUrl {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #ff480d;
+}
