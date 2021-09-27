@@ -1,0 +1,248 @@
+header {
+  position: sticky;
+  width: 100%;
+  height: 56px;
+  background-color: #181716;
+}
+#menu {
+  width: 30px;
+  margin-left: 10px;
+}
+#icon {
+  width: 20px;
+}
+#logo {
+  display: block;
+  width: 105px;
+  margin-left: 45%;
+  margin-right: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+button {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+#btnSub {
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  border-radius: 5%;
+  color: white;
+  font-weight: bolder;
+}
+#btnSign {
+  background-color: transparent;
+  color: white;
+}
+/*.title {
+  width: 1370px;
+  height: 311px;
+  margin: auto;
+  background-color: blue;
+}*/
+.titleBox {
+  height: 281px;
+  width: 920px;
+  margin: auto;
+  padding-top: 30px;
+  background-color: transparent;
+}
+h1 {
+  margin-top: 15px;
+  color: #ff480d;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65.88px;
+  letter-spacing: normal;
+  text-align: center;
+}
+.titleText {
+  height: 195px;
+  width: 900px;
+  background-color: blueviolet;
+}
+h3 {
+  text-align: center;
+  color: #ff480d;
+  font-weight: lighter;
+  font-size: 12px;
+}
+.author {
+  position: relative;
+  display: flex;
+  width: 700px;
+  height: 96px;
+  margin: auto;
+  background-color: transparent;
+  border-bottom: red solid;
+  border-bottom-width: 1px;
+}
+.authorData {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  text-align: left;
+}
+#authorPic {
+  padding: 15px;
+  width: 60px;
+  border-radius: 70%;
+}
+.socialMedia {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+ul li .mediaLogo {
+  width: 15px;
+  padding: 0px 10px;
+}
+.data {
+  display: inline;
+  padding: 2px;
+  font-size: 14px;
+}
+#image-1 {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.article {
+  height: 13512px;
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #fff;
+}
+h2 {
+  margin-bottom: 30px;
+  border-bottom: #ff480d solid 1px;
+  font-family: "work sans", sans-serif;
+  font-size: 30px;
+}
+p {
+  margin: 0px 0px 19.2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.A {
+  color: #ff480d;
+  font-size: 100px;
+}
+#image-02 {
+  width: 100%;
+}
+#picFooter {
+  margin: 6px 0px 0px;
+  font-family: "work sans", sans-serif;
+  font-size: 12px;
+  line-height: 20.04px;
+  color: #737373;
+  font-weight: bold;
+}
+.textBox {
+  border-top: #ff480d solid 1px;
+  border-bottom: #ff480d solid 1px;
+}
+.quote {
+  margin-top: 40px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ff480d;
+  text-align: center;
+}
+.quoteName {
+  margin-bottom: 40px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 25.6px 0px 0px;
+  color: #ff480d;
+  text-align: center;
+}
+.subTitle {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ff480d;
+}
+.entrepreneur {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: #ff480d solid 1px;
+  border-bottom: #ff480d solid 1px;
+}
+.ipoData {
+  margin: 19.2px 0px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  line-height: 37.5px;
+}
+.ipoDataSub {
+  margin: 19.2px 0px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 37.5px;
+}
+.endText {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  font-style: italic;
+  font-weight: 400;
+}
+.endTextAuthor {
+  font-family: "work sans", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 1000;
+  color: #333333;
+}
+.relatedArt {
+  border-bottom: #ff480d solid 2px;
+  padding-bottom: 30px;
+}
+#related {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ff480d;
+}
+#index {
+  font-size: 20px;
+  font-style: oblique;
+  text-decoration: none;
+}
+#indexUrl {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #ff480d;
+}
